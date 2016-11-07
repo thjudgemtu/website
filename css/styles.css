@@ -44,6 +44,33 @@ url('../fonts/abrilfatface-regular-webfont.woff') format('woff');
 {
 	background: url(../resources/SupermileageButton2.png) no-repeat;
 }
+
+.myButtonAbout:hover{
+	background-position: -100px 0%;
+}
+
+.myButtonAbout:active  /* use Dot here */
+{
+	background: url(../resources/SupermileageButton2.png) no-repeat;
+}
+
+.myButtonProjects:hover{
+	background-position: -100px 0%;
+}
+
+.myButtonProjects:active  /* use Dot here */
+{
+	background: url(../resources/SupermileageButton2.png) no-repeat;
+}
+
+.myButtonWriting:hover{
+	background-position: -100px 0%;
+}
+
+.myButtonWriting:active  /* use Dot here */
+{
+	background: url(../images/WritingButton.png) no-repeat;
+}
 .col-lg-4 col-md-4 col-sm-6 col-xs-12{
 	text-align: center;
 }
@@ -59,6 +86,9 @@ body {
 		margin-right: -15px;
 		margin-left: -15px;
 	}
+#aboutext {
+	margin-top: 17%;
+}
 }
 .homeheader {
 	height: 120px;
@@ -88,6 +118,4 @@ margin-left: 10px;
 float: left;
 margin-right: 10px;
 }
-#aboutext {
-	margin-top: 17%;
-}
+
