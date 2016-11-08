@@ -36,41 +36,47 @@ url('../fonts/abrilfatface-regular-webfont.woff') format('woff');
 	height: 100px;
 	text-align: center;
 }
+.myButtonAbout{
+	background: url(../images/AboutButton.png) no-repeat;
+	cursor: pointer;
+	border: none;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+}
+.myButtonWriting{
+	background: url(../images/WritingButton.png) no-repeat;
+	cursor: pointer;
+	border: none;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+}
+.myButtonProjects{
+	background: url(../images/ProjectButton.png) no-repeat;
+	cursor: pointer;
+	border: none;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+}
 .myButton:hover{
 	background-position: -100px 0%;
 }
 
-.myButton:active  /* use Dot here */
-{
-	background: url(../resources/SupermileageButton2.png) no-repeat;
-}
-
 .myButtonAbout:hover{
-	background-position: -100px 0%;
-}
-
-.myButtonAbout:active  /* use Dot here */
-{
-	background: url(../resources/SupermileageButton2.png) no-repeat;
+	background-position: -150px 0%;
 }
 
 .myButtonProjects:hover{
-	background-position: -100px 0%;
+	background-position: -150px 0%;
 }
 
-.myButtonProjects:active  /* use Dot here */
-{
-	background: url(../resources/SupermileageButton2.png) no-repeat;
-}
 
 .myButtonWriting:hover{
-	background-position: -100px 0%;
+	background-position: -150px 0%;
 }
 
-.myButtonWriting:active  /* use Dot here */
-{
-	background: url(../images/WritingButton.png) no-repeat;
-}
 .col-lg-4 col-md-4 col-sm-6 col-xs-12{
 	text-align: center;
 }
