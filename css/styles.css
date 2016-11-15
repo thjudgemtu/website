@@ -60,6 +60,22 @@ url('../fonts/abrilfatface-regular-webfont.woff') format('woff');
 	height: 150px;
 	text-align: center;
 }
+.myButtonDHHC{
+	background: url(../images/DHHCButton.png) no-repeat;
+	cursor: pointer;
+	border: none;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+}
+.myButtonIGSC3{
+	background: url(../images/IGSC3.png) no-repeat;
+	cursor: pointer;
+	border: none;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+}
 .myButton:hover{
 	background-position: -100px 0%;
 }
@@ -75,6 +91,14 @@ url('../fonts/abrilfatface-regular-webfont.woff') format('woff');
 
 .myButtonWriting:hover{
 	background-position: -150px 0%;
+}
+
+.myButtonDHHC:hover{
+	background-position: -100px 0%;
+}
+
+.myButtonIGSC3:hover{
+	background-position: -100px 0%;
 }
 
 .col-lg-4 col-md-4 col-sm-6 col-xs-12{
