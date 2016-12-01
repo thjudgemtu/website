@@ -117,7 +117,7 @@ body {
 		margin-left: -15px;
 	}
 #aboutext {
-	margin-top: 17%;
+	margin-top: 10%;
 }
 }
 .homeheader {
@@ -127,6 +127,7 @@ body {
 	color: #FFFFFF;
 	background-color: #000000;
 	line-height: 60px;
+	padding-left: 5px;
 }
 .abouttext{
 	display: inline-block;

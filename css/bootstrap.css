@@ -1,6 +1,6 @@
 /*!
- * Bootstrap v3.3.6 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -25,13 +25,7 @@ menu,
 nav,
 section,
 summary {
-	display: block;
-	margin-top: 0%;
-	font-size: 14px;
-	text-align: left;
-	padding-left: 8px;
-	padding-right: 8px;
-	padding-top: 5px;
+  display: block;
 }
 audio,
 canvas,
@@ -1112,7 +1106,6 @@ a:focus {
   text-decoration: underline;
 }
 a:focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -1148,9 +1141,7 @@ img {
           transition: all .2s ease-in-out;
 }
 .img-circle {
-	border-radius: 50%;
-	width: 100%;
-	max-width: 500px;
+  border-radius: 50%;
 }
 hr {
   margin-top: 20px;
@@ -1612,10 +1603,10 @@ pre code {
   }
 }
 .container-fluid {
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .row {
   margin-right: -15px;
@@ -2122,15 +2113,13 @@ pre code {
     width: 58.33333333%;
   }
   .col-lg-6 {
-    width: 50%;
+	width: 50%;
   }
   .col-lg-5 {
     width: 41.66666667%;
   }
   .col-lg-4 {
-	width: 33.33333333%;
-	padding-right: 0px;
-	padding-left: 0px;
+    width: 33.33333333%;
   }
   .col-lg-3 {
     width: 25%;
@@ -2547,7 +2536,6 @@ select[size] {
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -3039,7 +3027,6 @@ select[multiple].input-lg {
 .btn.focus,
 .btn:active.focus,
 .btn.active.focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }

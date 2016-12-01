@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+  </head>
+  <body>
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-12">
+      <header class="row homeheader">Timothy Judge</header>
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-default">
+  <div class="container-fluid"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="defaultNavbar1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="#">Writing</a></li>
+        <li class="active"><a href="#">Travel<span class="sr-only">(current)</span></a></li>
+        <li><a href="about.html">About Me</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contact<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="portfolio/Resume(Fall 2016).pdf" target="new">Resume</a></li>
+            <li><a href="mailto:thjudge@mtu.edu">Email</a></li>
+            <li><a href="https://www.linkedin.com/in/timothy-judge-b63a5939?trk=nav_responsive_tab_profile_pic" target="new">LinkedIn</a></li>
+            <li><a href="https://www.facebook.com/timothy.judge32" target="new">Facebook</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+<script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
+<script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
+<script src="https://www.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-centered"> 
+<div id="mapdiv" style="width: 100%; height: 640px;"></div>
+<script type="text/javascript">
+var map = AmCharts.makeChart("mapdiv",{
+type: "map",
+theme: "dark",
+projection: "mercator",
+panEventsEnabled : true,
+backgroundColor : "#535364",
+backgroundAlpha : 1,
+zoomControl: {
+zoomControlEnabled : true
+},
+dataProvider : {
+map : "worldHigh",
+getAreasFromMap : true,
+areas :
+[
+	{
+		"id": "FR",
+		"showAsSelected": true
+	},
+	{
+		"id": "GB",
+		"showAsSelected": true
+	},
+	{
+		"id": "CA",
+		"showAsSelected": true
+	},
+	{
+		"id": "HT",
+		"showAsSelected": true
+	},
+	{
+		"id": "JM",
+		"showAsSelected": true
+	},
+	{
+		"id": "US",
+		"showAsSelected": true
+	}
+	
+]
+},
+areasSettings : {
+autoZoom : true,
+color : "#B4B4B7",
+colorSolid : "#84ADE9",
+selectedColor : "#84ADE9",
+outlineColor : "#666666",
+rollOverColor : "#ffffff",
+rollOverOutlineColor : "#000000"
+}
+});
+	</script>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-centered">
+	<article>The map on the left outlines the countries to which I have travelled. In the future, it will also show countries to which I intend to travel in the near future. The countries which I have currently travelled to are United States, Canada, Jamaica, Haiti, United Kingdom, and France. Next summer I will travel to The Netherlands, Germany, Poland, Lithuania, Latvia, and Estonia. This page will also be updated shortly with experiences from my trip.
+	<div id="myCarousel" class="carousel slide" data-ride="carousel width: 100%; height: 350px;">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/travel1.jpg" alt="Chania">
+    </div>
+
+    <div class="item">
+      <img src="images/travel2.jpg" alt="Chania">
+    </div>
+
+    <div class="item">
+      <img src="images/travel3.jpg" alt="Flower">
+    </div>
+
+    <div class="item">
+      <img src="images/travel4.jpg" alt="Flower">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div></article>
+	</div>
+	</div>
+  </div>
+	  
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-1.11.3.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="js/bootstrap.js"></script>
+  </body>
+</html>
