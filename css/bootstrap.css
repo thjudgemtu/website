@@ -25,7 +25,8 @@ menu,
 nav,
 section,
 summary {
-  display: block;
+	display: block;
+	padding-bottom: 10px;
 }
 audio,
 canvas,
